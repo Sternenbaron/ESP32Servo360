@@ -12,7 +12,7 @@
 #if defined(ESP32)
 #include <WiFiClientSecure.h>
 #else
-#error “This library only supports ESP32 boards for now.”
+#error "This library only supports ESP32 boards for now."
 #endif
 
 // #define FILLARRAY(a,n) a[0]=n, memcpy( ((char*)a)+sizeof(a[0]), a, sizeof(a)-sizeof(a[0]) );
